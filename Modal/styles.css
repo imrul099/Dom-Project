@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./real-estate-6688945_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#open-btn{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 350px;
+    height: 80px;
+    font-size: 2rem;
+    background: transparent;
+    color: #262622;
+    border: solid 2px #262622;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s;
+    cursor: pointer
+};
+
+#open-btn:hover{
+    background-color: black;
+    color: #fff;
+}
