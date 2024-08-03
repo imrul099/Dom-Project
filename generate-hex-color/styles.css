@@ -7,10 +7,10 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
-    background-color: #000;
 }
 
 .main-container{
+    background-color: #000;
     width: 100%;
     height: 100vh;
     display: flex;
